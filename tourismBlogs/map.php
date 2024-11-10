@@ -41,7 +41,7 @@ $uid = $_GET['uid'];
               height="1000px"
               frameborder="0" style="border:5px"
               referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC3vioHoAYW74flNU4Hic_tG5jU8wAEHmc&q=<?=$replaced?>"
+              src="https://www.google.com/maps/embed/v1/place?key=<-GOOGLE API KEY->&q=<?=$replaced?>"
               allowfullscreen>
             </iframe>
             
